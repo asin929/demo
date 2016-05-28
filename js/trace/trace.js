@@ -2,7 +2,7 @@
 
 	
 	var map = new BMap.Map("map",{minZoom:17,maxZoom:19});          // 创建地图实例
-    var pt_center = new BMap.Point(116.364506, 39.969775);
+    var pt_center = new BMap.Point(33.364506, 33.969775);
     map.centerAndZoom(pt_center,19 );             // 初始化地图，设置中心点坐标和地图级别
     map.disableScrollWheelZoom(); // 不允许滚轮缩放
 	//外层时间循环相关变量
@@ -19,7 +19,7 @@
      }
 	 //要用到的数据，存放地点信息
 	var lonlat=new Array();
-	lonlat.push(new Bpoint(116.363419, 39.970383),new Bpoint(116.362642, 39.968984),new Bpoint(116.367057, 39.96899),new Bpoint(116.365332,39.970335),new Bpoint(116.363302, 39.969775),new Bpoint(116.365463, 39.969246));
+	lonlat.push(new Bpoint(33.363419, 33.970383),new Bpoint(33.362642, 33.968984),new Bpoint(33.367057, 33.96899),new Bpoint(33.365332,33.970335),new Bpoint(33.363302, 33.969775),new Bpoint(33.365463, 33.969246));
 	//要用到的数据，存放转移信息
 	var data= {"N":new Array(new Array(60,30,30,0,0,0),new Array(36,24,18,42,0,0),new Array(0,0,0,120,0,0),new Array(12,0,0,0,36,72),new Array(48,24,24,24,0,0),new Array(0,0,0,120,0,0),new Array(0,0,0,96,24,0),new Array(0,0,0,24,36,60)),
 		"M":new Array(new Array(new Array(0,0,0,24,0,0),new Array(0,0,0,6,0,0),new Array(0,0,0,12,0,0),new Array(0,0,0,0,0,0),new Array(0,0,0,0,0,0),new Array(0,0,0,0,0,0)),
