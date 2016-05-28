@@ -18,7 +18,9 @@
 </head>
 
 <body>
-<div id="header"><h1>集群数据块迁徙效果展示</h1></div>        
+<div id="header"><h1>集群数据块迁徙效果展示</h1></div>     
+<input type='button' id='stop' value="暂停"/>
+<input type='button' id='start' value="从头开始"/>   
 	<div id="wrap">
 <div class="legend">
 <p><div class='coloris' style='background-color:#ffcc00;'></div>＜3</p>
@@ -30,8 +32,7 @@
 <div id="map"></div>
 
 <div class=explain>
-<input type='button' id='stop' value="暂停"/>
-<input type='button' id='start' value="从头开始"/>
+
 <h1>说明</h1>
 <p>在本例中，展示了小集群6个DN间数据块迁徙的情况。</p>
 <p>使用圆形标识表示DN，标识中数字代表当前DN被访问的块数。使用移动的小定位标识表示数据块转移的方向，下面的数字表示转移块数。</p>
