@@ -1,2 +1,2 @@
 #  My demo
-[This page](http://leafxm.com/demo) shows some demos I have accomplished.
+[This page](http://asin929.github.io/web-demo/) shows some demos I have accomplished.
